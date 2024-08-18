@@ -1,12 +1,17 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
-group = 'today.exists'
+group = 'today.exists.raybuyer'
 version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+}
+
+application {
+    mainClass = 'today.exists.ratbuyer.Main'
 }
 
 dependencies {

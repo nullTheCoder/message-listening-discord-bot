@@ -1,4 +1,4 @@
-package today.exists;
+package today.exists.ratbuyer;
 
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
