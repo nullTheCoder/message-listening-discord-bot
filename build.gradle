@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group = 'today.exists'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("net.dv8tion:JDA:5.0.2")
+}
+
+test {
+    useJUnitPlatform()
+}
